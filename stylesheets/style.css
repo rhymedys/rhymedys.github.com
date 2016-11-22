@@ -69,7 +69,7 @@ body {
     padding: 0;
     color: #333333;
     font-size: 14px;
-    background: #fff;
+    background: #f5f5f5;
 }
 
 a:link,
@@ -79,7 +79,7 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color:#3366cc;
+    color: #3366cc;
     cursor: pointer;
 }
 
@@ -116,7 +116,7 @@ a:focus {
 }
 
 a {
-    color: #444;
+    /*color: #444;*/
 }
 
 a.read-more:hover {
@@ -139,7 +139,7 @@ body, p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 微软雅黑;
 
 }
 
@@ -159,7 +159,7 @@ h2 {
 h3 {
     font-size: 22px;
     line-height: 24px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 500;
     color: #566366;
 }
@@ -181,12 +181,12 @@ h5 {
     font-size: 18px;
     line-height: 24px;
     padding: 20px 19px;
-    border: 2px solid #fff;
+    /*border: 2px solid #fff;*/
     text-transform: uppercase;
     border-radius: 0px;
     font-weight: 700;
     background: transparent;
-    color: #fff;
+    /*color: #fff;*/
     -webkit-transition: all .4s ease-in 0s;
     -o-transition: all .4s ease-in 0s;
     transition: all .4s ease-in 0s;
@@ -201,7 +201,7 @@ h5 {
     border-radius: 0px;
     font-weight: 700;
     background: transparent;
-    color:#3366cc;
+    color: #3366cc;
     margin-top: 50px;
     -webkit-transition: all .4s ease-in 0s;
     -o-transition: all .4s ease-in 0s;
@@ -210,7 +210,7 @@ h5 {
 
 .btn-default:hover {
     background: #fff;
-    color:#3366cc;
+    color: #2ecc71;
     border-color: #fff;
 }
 
@@ -240,6 +240,11 @@ h2.heading-title {
     margin: 0 auto;
 }
 
+.wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 /*=============================================
   Banner styles
 ================================================*/
@@ -253,47 +258,49 @@ h2.heading-title {
     padding: 300px 0px 300px 0px;
 }
 
-.top-bar span{
+.top-bar span {
     float: left;
 }
+
 .top-bar a {
-    color:#3366cc;
+    color: #3366cc;
     font-size: 20px;;
 }
-.top-bar a:hover{
-    background:transparent;
-    color: #3366cc;
+
+.top-bar a:hover {
+    background: transparent;
+    color: #2ecc71;
 }
 
-.intro{
+.intro {
     background: transparent;
     padding-top: 291px;
-    padding-bottom: 95px;
+    padding-bottom: 75px;
     position: relative;
     font-size: 16px;
 }
 
-.intro.profile-image{
+.intro.profile-image {
     position: absolute;
     width: 160px;
     height: 160px;
     top: -80px;
     margin-left: -80px;
 }
-h1.name{
-    font-family: Tahoma;
-    font-weight:bold;
+
+h1.name {
     font-size: 48px;
     margin-bottom: 15px;
     letter-spacing: 0.5px;
 }
 
-.title{
+.title {
     font-size: 28px;
     font-weight: 300;
     color: darkgray;
     margin-bottom: 30px;
 }
+
 .intro .profile {
     padding-top: 90px;
     padding-bottom: 60px;
@@ -301,11 +308,7 @@ h1.name{
     font-size: 16px;
 }
 
-
-
-/*==================================================
-	navbar-menu
-=====================================================*/
+/*navbar-menu*/
 .section-menu {
     z-index: 9999;
 }
@@ -320,18 +323,20 @@ h1.name{
 }
 
 .navbar-nav {
+    margin-right: 256px;
 }
 
 .navbar-nav li {
     /*padding-right: 40px;*/
+
 }
 
 .navbar-default .navbar-nav > li > a {
     text-transform: uppercase;
     font-weight: 700;
     padding: 30px 20px;
-    font-size: 16px;
-   font-family: Tahoma;
+    font-size: 20px;
+    font-family: 微软雅黑;
     color: #fff;
     line-height: 30px;
 }
@@ -346,7 +351,7 @@ h1.name{
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color:#3366cc;
+    color: #3366cc;
     background-color: transparent;
 }
 
@@ -366,6 +371,170 @@ h1.name{
 .navbar-brand span {
     color: #3366cc;
 
+}
+
+/*expericence*/
+
+.section {
+    /*margin-top: 45px;*/
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    padding: 96px;
+    background: #fff;
+    margin-bottom: 45px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    font-family: 微软雅黑;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.timeline {
+    border-left: 3px solid #99ccff;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
+    padding: 0 30px;
+    margin-left: 280px;
+}
+
+.timeline .item {
+    position: relative;
+    margin-bottom: 74px;
+}
+
+.timeline .item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .item:before {
+    content: "";
+    position: absolute;
+    left: -43px;
+    top: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fff;
+    border: 3px solid #99ccff;
+}
+
+.timeline .item:after {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #99ccff;
+    z-index: 10;
+}
+
+.timeline .work-place {
+    position: relative;
+}
+
+.timeline .location {
+    position: absolute;
+    right: 4px;
+    top: -47px;
+    color: #8a8a8a;
+}
+
+.timeline .location .fa {
+    margin-right: 5px;
+}
+
+.timeline .place {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 微软雅黑;
+}
+
+.timeline .job-meta {
+    position: absolute;
+    left: -280px;
+    top: 0;
+}
+
+.timeline .job-meta .title {
+    font-size: 18px;
+    color: #4ea4fa;
+}
+
+.timeline .job-meta .time {
+    font-family: 微软雅黑;
+    color: #8a8a8a;
+}
+
+.timeline .job-desc {
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: #666;
+}
+
+.timeline .job-desc .responsible {
+    font-family: 微软雅黑;
+    font-weight: 300;
+}
+
+.timeline .job-desc li {
+    position: relative;
+    /*margin-bottom: 28px;*/
+}
+
+
+
+.timeline .job-desc span {
+    position: absolute;
+    float: left;
+}
+.timeline .job-desc .line_one{
+    margin-bottom: 10px;
+}
+
+.timeline .job-desc .line_two{
+    margin-bottom: 28px;
+}
+
+.timeline .job-desc .line_three{
+    margin-bottom: 62px;
 }
 
 /*==================================================
