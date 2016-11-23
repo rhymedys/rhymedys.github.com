@@ -45,12 +45,11 @@ if (typeof Object.create !== 'function') {
 
             e.preventDefault();             
 
-            if ($elem.length) { // Make sure the target elem exists
+            if ($elem.length) {
 
-                // Prevent active link from cycling during the scroll
                 self.clearTimer();
 
-                // Before scrolling starts
+
                 if (typeof self.options.beforeStart === 'function') {
                     self.options.beforeStart();
                 }
@@ -65,7 +64,7 @@ if (typeof Object.create !== 'function') {
 
                     self.setTimer();
 
-                    // After scrolling ends
+
                     if (typeof self.options.onComplete === 'function') {
                         self.options.onComplete();
                     }
@@ -114,7 +113,7 @@ if (typeof Object.create !== 'function') {
             this.didScroll = false;
         },
         
-        // Check the scroll position and set the active section
+
         checkPosition: function() {
             var scrollPos = this.$window.scrollTop();
             var currentSection = this.getCurrentSection(scrollPos);
@@ -153,7 +152,7 @@ if (typeof Object.create !== 'function') {
                 }
             }
             
-            // The current section or the first link if it is found
+
             return section || ((this.$links.length===0) ? (null) : (this.$links[0].hash));
         }
     };

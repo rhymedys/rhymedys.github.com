@@ -580,7 +580,7 @@ h1.name {
 }
 
 #section-profile {
-    background: #f2f2f1;
+    background: white;
 }
 
 .profile-bg {
@@ -602,7 +602,8 @@ h1.name {
 
 .profile-desc {
     margin-bottom: 70px;
-    padding-left: 80px;
+    padding-left: 78px;
+    padding-right: 43px;
 }
 
 .profile-desc h2 {
@@ -614,7 +615,7 @@ h1.name {
 
 .service-inner {
     float: left;
-    margin-right: 12px;
+    margin-right: -15px;
     margin-bottom: 20px;
     width: 48%;
 }
@@ -641,6 +642,10 @@ h1.name {
 .service-box p {
     font-size: 16px;
     line-height: 30px;
+}
+
+.service-box .social {
+  margin-right: 20px;
 }
 
 /*section-skills
