@@ -51,6 +51,8 @@
 /* Small Devices Potrait */
 @media (max-width : 767px){
 
+
+
 	.section {
 		padding: 30px;
 	}
@@ -68,6 +70,20 @@
 		position: static;
 		margin-bottom: 15px;
 	}
+
+	.timeline .job-desc .line_one{
+		margin-bottom: 15px;
+	}
+
+	.timeline .job-desc .line_two{
+		margin-bottom: 40px;
+	}
+
+	.timeline .job-desc .line_three{
+		margin-bottom: 70px;
+	}
+
+
 	.education-section .item {
 		padding: 0;
 	}
