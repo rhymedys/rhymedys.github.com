@@ -39,7 +39,7 @@ jQuery(function ($) {
     system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
     system.ipad = (navigator.userAgent.match(/iPad/i) != null) ? true : false;
 
-    if (system.win || system.mac || system.xll) {
+    if (system.win || system.mac || system.xll||system.ipad) {
         $('.navigation').singlePageNav({
             currentClass: 'active',
             changeHash: true,
@@ -60,7 +60,7 @@ jQuery(function ($) {
 
 // prettyphoto
         $("a[data-rel^='prettyPhoto']").prettyPhoto();
-    }
+}
 
 
     /* ======= Chart ========= */
