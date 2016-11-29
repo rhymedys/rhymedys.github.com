@@ -24,8 +24,22 @@
 jQuery(function ($) {
     "use strict";
 
-    if ($(document).width() > 767) {
+    var system = {
+        win: false,
+        mac: false,
+        xll: false,
+        ipad: false
+    };
 
+    //检测平台
+    var p = navigator.platform;
+
+    system.win = p.indexOf("Win") == 0;
+    system.mac = p.indexOf("Mac") == 0;
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+    system.ipad = (navigator.userAgent.match(/iPad/i) != null) ? true : false;
+
+    if (system.win || system.mac || system.xll) {
         $('.navigation').singlePageNav({
             currentClass: 'active',
             changeHash: true,
@@ -47,6 +61,7 @@ jQuery(function ($) {
 // prettyphoto
         $("a[data-rel^='prettyPhoto']").prettyPhoto();
     }
+
 
     /* ======= Chart ========= */
 
