@@ -1,9 +1,3 @@
-/* ------------------------------------------------------------------------
- Class: prettyPhoto
- Use: Lightbox clone for jQuery
- Author: Stephane Caron (http://www.no-margin-for-errors.com)
- Version: 3.1.5
- ------------------------------------------------------------------------- */
 (function (e) {
     function t() {
         var e = location.href;
@@ -338,7 +332,8 @@
             iframe_markup: '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no"></iframe>',
             inline_markup: '<div class="pp_inline">{content}</div>',
             custom_markup: "",
-            social_tools: '<div class="twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div><div class="facebook"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&href={location_href}&layout=button_count&show_faces=true&width=500&action=like&font&colorscheme=light&height=23" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:23px;" allowTransparency="true"></iframe></div>'
+            social_tools:''
+            // social_tools: '<div class="twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div><div class="facebook"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&href={location_href}&layout=button_count&show_faces=true&width=500&action=like&font&colorscheme=light&height=23" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:23px;" allowTransparency="true"></iframe></div>'
         }, s);
         var o = this, u = false, a, f, l, c, h, p, d = e(window).height(), v = e(window).width(), m;
         doresize = true, scroll_pos = T();
