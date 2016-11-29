@@ -87,10 +87,16 @@
 		margin-bottom: 70px;
 	}
 
+	.timeline .location{
+		top: -27px;
+	}
 	.education-section .item {
 		padding: 0;
-		margin-left:0;
+		margin-left: 1px;;
 	}
+
+
+
 
 }
 
