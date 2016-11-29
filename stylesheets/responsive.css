@@ -72,7 +72,7 @@
 	}
 
 	.timeline .job-desc .line_one{
-		margin-bottom: 70px;
+		margin-bottom: 80px;
 	}
 
 	.timeline .job-desc .line_two{
@@ -83,6 +83,9 @@
 		margin-bottom: 220px;
 	}
 
+	.timeline .job-desc .line_shengluo{
+		margin-bottom: 70px;
+	}
 
 	.education-section .item {
 		padding: 0;
