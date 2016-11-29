@@ -51,7 +51,27 @@
 /* Small Devices Potrait */
 @media (max-width : 767px){
 
-	
+	.section {
+		padding: 30px;
+	}
+	.section-title {
+		font-size: 20px;
+	}
+	.timeline {
+		margin-left: 0;
+		padding-right: 0;
+	}
+	.timeline .place {
+		margin-bottom: 5px;
+	}
+	.timeline .job-meta {
+		position: static;
+		margin-bottom: 15px;
+	}
+	.education-section .item {
+		padding: 0;
+	}
+
 }
 
 /* Extra Small Devices, Phones */ 
