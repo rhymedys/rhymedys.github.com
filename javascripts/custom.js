@@ -43,7 +43,6 @@ jQuery(function ($) {
 
 
 // prettyphoto
-0
     $("a[data-rel^='prettyPhoto']").prettyPhoto();
 
 
