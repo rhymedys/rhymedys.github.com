@@ -89,6 +89,7 @@
 
 	.timeline .location{
 		top:-20px;
+		 position:relative;
 	}
 	.education-section .item {
 		padding: 0;
