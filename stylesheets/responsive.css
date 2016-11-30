@@ -58,7 +58,7 @@
 		padding-top: 31px;
 	}
 
-.sectionA {
+.sectionA { opacity: 1;
 		padding: 42px;
 	}
 
@@ -78,15 +78,15 @@
 	}
 
 	.timeline .job-desc .line_one{
-		margin-bottom: 64px;
-	}
-
-	.timeline .job-desc .line_two{
 		margin-bottom: 91px;
 	}
 
+	.timeline .job-desc .line_two{
+		margin-bottom: 150px;
+	}
+
 	.timeline .job-desc .line_three{
-		margin-bottom: 179px;
+		margin-bottom: 236px;
 	}
 
 	.timeline .job-desc .line_shengluo{
@@ -99,6 +99,11 @@
 		/*position: relative;*/
 		margin-bottom: 10px;
 	}
+
+	.work-place{
+		font-size: 10px;
+	}
+
 	.education-section .item {
 		padding: 0;
 		margin-left: 1px;;
