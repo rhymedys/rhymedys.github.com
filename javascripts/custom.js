@@ -1,23 +1,6 @@
 /*
  *
  * Created by Rhymedys
-
- 1. Fixed header
- 2. Site search
- 3. Main slideshow
- 4. Owl Carousel
- a. Testimonial
- b. Clients
- c. Team
- 5. Back to top
- 6. Skills
- 7. BX slider
- a. Blog Slider
- b. Portfolio item slider
- 8. Isotope
- 9. Animation (wow)
- 10. Flickr
-
  */
 
 
