@@ -53,10 +53,12 @@
 
 
 	.navbar-nav{
-
+		margin-left: 0px;
 	}
 	.navbar-right
 	{
+		float: none;
+
 	 }
 
 
