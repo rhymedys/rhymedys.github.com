@@ -75,7 +75,7 @@ if (typeof Object.create !== 'function') {
         },
 
         scrollTo: function ($elem, callback) {
-            if ($(Document.Width) > 767) {
+
                 var self = this;
                 var target = self.getCoords($elem).top;
                 var called = false;
@@ -93,7 +93,7 @@ if (typeof Object.create !== 'function') {
                         }
                     }
                 );
-            }
+
         },
 
         setTimer: function () {
