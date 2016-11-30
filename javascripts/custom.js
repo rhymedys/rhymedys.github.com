@@ -28,9 +28,16 @@ jQuery(function ($) {
 
     if (browser.versions.ios || browser.versions.iPhone || browser.versions.iPad) {
         //window.location="http://localhost/index.html";
+        //window.location="http://localhost/demo.php";
+        $('.navigation').singlePageNav();
+        $.noConflict();
+        $('.nav a').on('click', function () {});
     }
     else if (browser.versions.android) {
         //window.location="http://localhost/demo.php";
+        $('.navigation').singlePageNav();
+        $.noConflict();
+        $('.nav a').on('click', function () {});
     } else {
         $('.navigation').singlePageNav({
             currentClass: 'active',
