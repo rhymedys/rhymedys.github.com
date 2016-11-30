@@ -51,19 +51,8 @@
 /* Small Devices Potrait */
 @media (max-width : 767px){
 
-
-.section-menu{
-	display: block;
-	visibility: hidden;
-
-}
-
-
-	.section {
-		padding: 30px;
-	}
-	.section-title {
-		font-size: 20px;
+	.section-menu {
+		display: none;
 	}
 	.timeline {
 		margin-left: 0;
