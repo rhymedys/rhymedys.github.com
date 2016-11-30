@@ -51,9 +51,15 @@
 /* Small Devices Potrait */
 @media (max-width : 767px){
 
-	.navbar-right {
+
+	.navbar-nav{
 
 	}
+	.navbar-right
+	{
+	 }
+
+
 
 	.section {
 		padding: 30px;
