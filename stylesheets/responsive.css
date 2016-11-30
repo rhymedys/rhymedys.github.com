@@ -52,16 +52,11 @@
 @media (max-width : 767px){
 
 
-	.navbar-nav{
-		display: block;
-		visibility: hidden;
-	}
-	.navbar-right
-	{	display: block;
-		visibility: hidden;
+.section-menu{
+	display: block;
+	visibility: hidden;
 
-	 }
-
+}
 
 
 	.section {
