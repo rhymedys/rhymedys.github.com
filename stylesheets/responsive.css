@@ -53,10 +53,11 @@
 
 
 	.navbar-nav{
+		display: block;
 		visibility: hidden;
 	}
 	.navbar-right
-	{
+	{	display: block;
 		visibility: hidden;
 
 	 }
